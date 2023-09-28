@@ -1,0 +1,217 @@
+
+/* fraunces-900 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/fraunces-v31-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* barlow-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* barlow-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+
+  html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+ 
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+  }
+ 
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+ 
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    line-height: normal;
+  }
+ 
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+  }
+
+  /* Header */
+
+
+header {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 auto;
+    padding: 44px 80px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    padding-left: 33px;
+}
+
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav--link {
+    color: #83888F;
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+
+.nav--link:hover {
+    color: #333D4B;
+}
+
+/*Hero */
+
+.great .container {
+    background: url(../img/bacround.png);
+    width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.great__box {
+    width: 493px;
+    margin-top: -65px;
+}
+
+.great__heading-1 {
+    color: #FEFCF7;
+    font-family: "Fraunces";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    margin-bottom: 32px;
+}
+
+.great__text {
+    color: #FEFCF7;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.8;
+    line-height: 26px; 
+    margin-bottom: 56px;
+}
+
+.great__link {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    border-radius: 6px;
+    background: #66D2CF;
+    padding: 15px 31px;
+}
+
+.great__link:hover {
+    background-color: aqua;
+}
+
+
+/*gran*/
+
+.gran {
+    margin-top: 262px;;
+}
+
+.gran .container {
+    background:url(../img/bacround2.png);
+    width: 1111px;
+    height: 196px;
+}
+
+.gran__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 400px;
+    margin-left: -44px;
+}
+
+.gran__item {
+    width: 255px;
+}
+
+.gran__item + .gran__item {
+    margin-left: 30px;
+}
+
+.gran__heading-2 {
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+}
+
+.gran__text {
+    color: #333D4B;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
