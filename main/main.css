@@ -322,9 +322,15 @@ a {
 }
 
 /* How */
+   
+.how {
+    margin-left: 380px;
+}
+
 
 .how .container {
     display: block;
+    padding: 0;
     margin-top: 200px;
 }
 
@@ -455,8 +461,7 @@ a {
 footer {
     background-color: #2C343E;
     margin-top: 200px;
-    margin-left: -150px;
-    
+    margin-left: 50px;
 }
 
 .footer .container {
@@ -471,7 +476,7 @@ footer {
 }
 
 .footer__box {
-    margin-left: 369px;
+    margin-left: 400px;
 }
 
 .footer--link {
