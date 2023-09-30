@@ -277,10 +277,10 @@ a {
     margin: 0 auto;
     padding: 0 auto;
     margin-top: -220px;
-    
+
 }
 
-.why__item + .why__item {
+.why__item+.why__item {
     margin-left: 30px;
 }
 
@@ -319,4 +319,165 @@ a {
     line-height: 26px;
     margin: 0 auto;
     margin-bottom: 48px;
+}
+
+/* How */
+
+.how .container {
+    display: block;
+    margin-top: 200px;
+}
+
+.how__heading {
+    color: #83888F;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.how__box {
+    width: 760px;
+    height: 2px;
+    background-color: #FDD6BA;
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    margin-top: 95px;
+}
+
+.how__line {
+    position: relative;
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    border: 2px solid #0E8784;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: -12px;
+    margin-left: -15px;
+}
+
+.how__line:nth-child(2) {
+    margin-left: 349px;
+}
+
+.how__line:nth-child(3) {
+    margin-left: 729px;
+    transform: translate(15px, -23px);
+}
+
+
+.how__list {
+    display: flex;
+    gap: 95px;
+    margin: 0;
+    padding: 0;
+    margin-top: 82px;
+}
+
+.how__item {
+    margin-top: 82px;
+    gap: 95px;
+}
+
+
+.how__text {
+    color: #FDD6BA;
+    font-family: "Fraunces";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    margin: 0;
+    padding: 0;
+    margin-top: 82px;
+}
+
+.how__heading--5 {
+    width: 255px;
+    color: #333D4B;
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    margin-top: 38px;
+}
+
+.how__text--p {
+    width: 285px;
+    color: #333D4B;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    margin-top: 42px;
+    margin-bottom: 64px;
+}
+
+.how__link {
+    border-radius: 6px;
+    background-color: #0E8784;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    padding: 0px 31px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+.how__link:hover {
+    background-color: #66D2CF;
+}
+
+
+/* Footer*/
+
+footer {
+    background-color: #2C343E;
+    margin-top: 200px;
+    margin-left: -150px;
+    
+}
+
+.footer .container {
+    width: 1280px;
+    background-color: #2C343E;
+    justify-content: start;
+    
+}
+
+.footer__link:hover {
+    color: #FFF;
+}
+
+.footer__box {
+    margin-left: 369px;
+}
+
+.footer--link {
+    padding-left: 10px;
+}
+
+path:hover {
+    fill: #FDD6BA;
 }
